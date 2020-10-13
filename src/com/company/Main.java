@@ -7,5 +7,6 @@ public class Main {
         System.out.println(tr1);
         Circle cir1 = new WhiteCircle();
         System.out.println(cir1);
-    }
+
+        BaseFactory blackFactory = new BlackFactory(); }
 }

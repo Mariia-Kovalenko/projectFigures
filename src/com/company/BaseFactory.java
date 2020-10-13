@@ -1,12 +1,9 @@
 package com.company;
 
-public class BaseFactory extends AbstractFactory {
-
+public abstract class BaseFactory implements AbstractFactory {
 
     @Override
-    public BaseFactory getFactory() {
-        return null;
-    }
+    public abstract BaseFactory getFactory();
 
     public void createCircle(){
 
