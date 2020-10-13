@@ -1,13 +1,17 @@
 package com.company;
 
 public class BlackCircle extends BlackFactory implements Circle {
-    double x = 0;
-    double y = 0;
-    double radius =1;
+    double x ;
+    double y ;
+    double radius;
 
-    public BlackCircle(double x, double y, double radius) {
-
+    {
+        x =0;
+        y = 0;
+        radius = 1;
     }
+
+
 
     @Override
     public String toString() {
