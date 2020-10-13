@@ -5,13 +5,13 @@ public class BlackFactory extends BaseFactory {
     private final String message ="This is Black Factory";
 
     @Override
-    public void createCircle() {
-
+    public Circle createCircle(double x, double y, double radius) {
+        return new BlackCircle(x,y,radius);
     }
 
     @Override
-    public void createTriangle() {
-
+    public Triangle createTriangle(double a, double b, double c) {
+        return new BlackTriangle(a,b,c);
     }
 
     public BlackFactory() {

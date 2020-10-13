@@ -12,6 +12,18 @@ public class BlackTriangle extends BlackFactory implements Triangle {
         c = 1;
         h = Math.sqrt(3)*0.5;
     }
+
+    public BlackTriangle(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+
+    }
+
+    public BlackTriangle() {
+
+    }
+
     @Override
     public String toString() {
         return "Created triangle with sides: " +

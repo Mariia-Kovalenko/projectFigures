@@ -11,7 +11,11 @@ public class BlackCircle extends BlackFactory implements Circle {
         radius = 1;
     }
 
-
+    public BlackCircle(double x, double y, double radius) {
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+    }
 
     @Override
     public String toString() {

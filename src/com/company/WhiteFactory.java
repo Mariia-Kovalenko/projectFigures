@@ -9,13 +9,13 @@ public class WhiteFactory extends BaseFactory {
     }
 
     @Override
-    public void createCircle() {
-
+    public Circle createCircle(double x, double y, double radius) {
+        return new WhiteCircle(x,y,radius);
     }
 
     @Override
-    public void createTriangle() {
-
+    public Triangle createTriangle(double a, double b, double c) {
+        return new WhiteTriangle(a,b,c);
     }
 
     @Override

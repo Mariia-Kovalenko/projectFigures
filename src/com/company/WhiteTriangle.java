@@ -12,6 +12,14 @@ public class WhiteTriangle extends WhiteFactory implements Triangle {
         c = 1;
         h = Math.sqrt(3)*0.5;
     }
+
+    public WhiteTriangle(double a, double b, double c) {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+
+    }
+
     @Override
     public String toString() {
         return "Created triangle with sides: " +

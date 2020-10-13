@@ -11,7 +11,15 @@ public class WhiteCircle extends WhiteFactory implements Circle {
         radius = 1;
     }
 
+    public WhiteCircle(double x, double y, double radius) {
+        this.x = x;
+        this.y = y;
+        this.radius = radius;
+    }
 
+    public WhiteCircle() {
+
+    }
 
     @Override
     public String toString() {
