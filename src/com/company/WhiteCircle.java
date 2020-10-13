@@ -1,7 +1,12 @@
 package com.company;
 
 public class WhiteCircle extends WhiteFactory implements Circle {
+    double x = 0;
+    double y = 0;
+    double radius =1;
 
+    public WhiteCircle() {
+    }
 
     @Override
     public String toString() {
