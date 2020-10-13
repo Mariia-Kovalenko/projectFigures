@@ -1,18 +1,7 @@
 package com.company;
 
 public class WhiteTriangle extends WhiteFactory implements Triangle {
-    private double a;
-    private double b;
-    private double c;
-    private double h;
 
-
-    {
-        a = 1;
-        b = 1;
-        c = 1;
-        h = Math.sqrt(3)*0.5;
-    }
 
     @Override
     public String toString() {
