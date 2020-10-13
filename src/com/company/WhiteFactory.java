@@ -2,13 +2,24 @@ package com.company;
 
 public class WhiteFactory extends BaseFactory {
 
-    private final String message ="This is Black Factory";
+    private final String message ="This is White Factory";
 
     public WhiteFactory() {
+        System.out.println(message);
+    }
+
+    @Override
+    public void createCircle() {
+
+    }
+
+    @Override
+    public void createTriangle() {
+
     }
 
     @Override
     public BaseFactory getFactory() {
-        return null;
+        return this;
     }
 }

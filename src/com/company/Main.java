@@ -8,5 +8,7 @@ public class Main {
         Circle cir1 = new WhiteCircle();
         System.out.println(cir1);
 
-        BaseFactory blackFactory = new BlackFactory(); }
+        BaseFactory blackFactory = new BlackFactory();
+        blackFactory.getFactory();
+    }
 }
