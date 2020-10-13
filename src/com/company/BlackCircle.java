@@ -19,9 +19,9 @@ public class BlackCircle extends BlackFactory implements Circle {
 
     @Override
     public String toString() {
-        return "Created circle with center in "+
+        return "Created black circle with center in "+
                 "("+ x +
-                ";" + y + ")"+
+                " ; " + y + ")"+
                 " and radius "+ radius;
     }
 

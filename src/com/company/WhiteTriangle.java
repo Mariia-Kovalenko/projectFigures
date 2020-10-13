@@ -22,7 +22,7 @@ public class WhiteTriangle extends WhiteFactory implements Triangle {
 
     @Override
     public String toString() {
-        return "Created triangle with sides: " +
+        return "Created white triangle with sides: " +
                 " a = " + a +
                 " b = " + b +
                 " c = " + c;

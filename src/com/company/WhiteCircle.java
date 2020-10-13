@@ -21,11 +21,12 @@ public class WhiteCircle extends WhiteFactory implements Circle {
 
     }
 
+
     @Override
     public String toString() {
-        return "Created circle with center in "+
+        return "Created white circle with center in "+
                 "("+ x +
-                ";" + y + ")"+
+                " ; " + y + ")"+
                 " and radius "+ radius;
     }
 
@@ -33,4 +34,5 @@ public class WhiteCircle extends WhiteFactory implements Circle {
     public double countArea() {
         return  Math.PI* Math.pow(radius,2);
     }
+
 }
